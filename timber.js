@@ -67,5 +67,4 @@ function loadAds() {
     document.getElementById('demo').innerText = "Advertisements";
 }
 //Launch
-// window.onload = setupSite();
 document.addEventListener('DOMContentLoaded',setupSite)
