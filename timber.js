@@ -63,6 +63,7 @@ function handleLogout() {
     document.cookie = "state=;expires=" + generalConfig.expiration() + ";path=/";
     parent.location.reload();
 }
+//This is an example. You will need to load ads however they have been configured to load.
 function loadAds() {
     document.getElementById('demo').innerText = "Advertisements";
 }
