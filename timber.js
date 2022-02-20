@@ -55,6 +55,7 @@ function writeMeasureCookies(data) {
 }
 function handleLogin() {
     document.cookie = "status=loggedIn;expires=" + generalConfig.expiration() + ";path=/";
+    document.cookie = "state=subscribed;expires=" + generalConfig.expiration() + ";path=/";
 }
 function handleLogout() {
     document.cookie = "offerType=;expires=" + generalConfig.expiration() + ";path=/";
